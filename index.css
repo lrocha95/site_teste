@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,100&display=swap');
+
+/*reset css*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --purple-main:#ca71f0;
+  --auxiliary-purple:#bd57bd;
+  --gradient-fundo: #ccccff 19%, #ffffff 74%;
+}
+
+/*Estilização do menu e cabeçalho*/
+header {
+  width: 100%;
+  height: 7vh;
+  background-color:#ca71f0;
+  color: #282629;
+}
+
+.menu-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-menu .menu-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.header-menu .menu-list a {
+  text-decoration: none;
+  padding: 1rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-style: bold;
+  color: black;
+}
+/*Fim da estilização do menu e cabeçalho*/
+
+/*Inicio da estilização da MAIN*/
+
+main {
+  height: 93vh;
+  display: grid;
+  padding-top: 5px;
+  /* background: linear-gradient(to top left, #ccccff 19%, #ffffff 74%); */
+}
+.showcase {
+  display: flex;
+  padding: 10px;
+}
+
+.showcase .showcase-content-left h1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+ font-family: 'Josefin Sans', sans-serif;
+ font-weight: 400;
+ font-style: bold;
+}
+.showcase .showcase-content-left p{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size: 1.5rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 270;
+  padding-bottom: 60px;
+}
+.showcase-content-left button{
+  border: none;
+  border-radius: 8px;
+  height: 35px;
+  width: 180px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #bd57bd;
+}
+.showcase img {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+/*section cards*/
+.cards {
+  display: grid;
+  padding: 10px;
+  background: linear-gradient(to top left, #ccccff 19%, #ffffff 74%);
+}
+
+.cards .cards-content {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+  padding: 10px;
+}
+
+.cards .cards-content h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-style: bold;
+}
+
+.cards .cards-content p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 250;
+  margin-top: 5px;
+}
+
+.cards .cards-content .jobs-offer {
+  padding: 3px;
+  box-shadow: 2px 2px var(--auxiliary-purple), 0em 0 0.2em ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fim section cards*/
+.adress {
+  display: grid
+  
+}
